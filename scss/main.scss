@@ -1,0 +1,293 @@
+
+
+.site-header{
+	background:#00205b;
+	color: #fff;
+	.utility {
+		float: right;
+		padding: 10px;
+		
+		li{
+			list-style-type: none;
+			float: left;
+			margin: 0 10px;
+		}
+	}
+	
+	.main-nav {
+		width: 100%;
+		height: 140px;
+		padding-top: 20px;
+		.ama-logo {
+			padding-top: 50px;
+			padding-left: 20px;
+			width: 12%;
+			float: left;
+			img {
+				max-width: 100%;
+			}
+		}
+		.dropdown {
+			width: 75%;
+			padding-top: 40px;
+			float: left;
+			ul{
+				li {
+					list-style-type: none;
+					text-transform: uppercase;
+					float: left;
+					font-size: 20px;
+					margin: 10px 20px;
+					.sub-member, .sub-travel, .sub-insurance, .sub-auto, .sub-reg, .sub-all{
+						display: none;
+						width: 100%;
+						position: absolute;
+						left: 0px;
+						z-index: 99999;
+							background:#00205b;
+							.first-li {
+								border-bottom: 1px solid #fff;
+								width: 97%;
+								clear:both;
+							}
+							.column, .column, .column{
+								width: 20%;
+								float: left;
+							}
+						li {
+							clear:both;
+							text-transform: capitalize;
+							font-size: 16px;
+							margin: 5px 0px;
+						}
+					}
+				}
+
+			}
+		}
+		.search-box {
+			width: 6%;
+			float: left;
+			margin-left: 10px;
+			margin-top: 70px;
+			input[type='text']{
+				
+			}
+		}
+	}
+}
+
+.deal-of-the-week{
+	background: #999;
+	color: #fff;
+	text-align: center;
+	line-height: 48px;
+	position: relative;
+	span {
+		font-size: 16px;
+	}
+}
+
+.banner {
+	background-image: url('../img/flight.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0px 70px 0px;
+	h1 {
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	
+	//TST WIDGET
+	.tst {
+		background-color: #fff;
+		width: 70%;
+		margin: 60px auto 0px auto;
+		
+		.title-and-logo {
+			background-color: orange;
+			padding: 20px;
+			float: left; 
+			width: 100px;
+		}
+		
+		form {
+			position: relative;
+			overflow:hidden;
+			.grouped{
+				padding: 20px;
+				float: left;
+				label {
+					width: 80px;
+				}
+			}
+			.search-btn {
+				overflow:hidden;
+				padding: 20px 40px;
+				button {
+					background-color: orange;
+					color: #fff;
+					padding: 10px 45px;
+				}
+			}
+			.tst-advanced-search{
+				font-size: 10px;
+				position: absolute;
+				right: 10px;
+				bottom: 10px;
+			}
+		}
+
+
+
+	}
+}
+
+.navbar-default {
+	background-image: none !important;
+	background-color: #00539C !important;
+	li {
+		width: 180px;
+		text-align: center;
+		color: #fff !important;
+		a {
+			color: #fff !important;
+		}
+	}
+	
+	.active {
+		a {
+			color: #777 !important;
+		}
+	}
+}
+
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+.deal-row-wrapper {
+	position: relative;
+}
+
+
+.last-card {
+	background-color: orange;
+	padding-bottom: 100px !important;
+	a {
+		color: #fff;
+	}
+}
+
+.deal-row {
+	width: 100%;
+	overflow: hidden;
+	
+	ul {
+		position: relative;
+		width: 99999px;
+		
+		li {
+			border: solid 1px #e5e5e5;
+			padding: 20px;
+			list-style-type: none;
+			width: 265px;
+			float: left;
+			margin-right: 10px;
+			img {
+				max-width: 200px;
+				height: 100px;
+			}
+			
+			.left-details {
+				float: left;
+				p {
+					float: left;
+				}
+			}
+
+			.right-details {
+				float: right;
+				padding: 0px 10px;
+			}
+
+		}
+	}
+}
+
+
+
+.right-arrow {
+	position: absolute;
+	top: 125px;
+	right: 40px;
+	font-size: 50px;
+	height: 50px;
+	z-index: 100;
+}
+
+.left-arrow {
+	position: absolute;
+	top: 125px;
+	left: 10px;
+	font-size: 50px;
+	height: 50px;
+	z-index: 100;
+}
+
+.show {
+	display: block;
+}
+
+.details {
+	display: none;
+	ul {
+		width: auto;
+		li {
+			clear: both;
+			padding: 0;
+			border: none;
+			list-style-type: circle;
+			
+		}
+	}
+}
+
+/*MODAL*/
+
+.modalPopup{
+	display: none;
+	position: fixed;
+	top: 10px;
+	z-index: 600;
+	width: 540px;
+	border: solid 1px gray;
+	background-color: #fff;
+	padding: 20px;
+}
+
+//lightbox bg
+.bg {
+  position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #000;
+     filter:alpha(opacity=50);
+     -moz-opacity:0.5;
+     -khtml-opacity: 0.5;
+     opacity: 0.5;
+     z-index: 500;
+}
+
+
+
+
