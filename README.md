@@ -1,4 +1,2 @@
-ui-tests
-========
-
-Test modal and accoridon view
+www-prototype
+An HTML shell of WWW for prototyping
